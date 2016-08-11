@@ -1,0 +1,394 @@
+/**
+* Media Query - Maximum Width 1450px
+*/
+
+@media screen and (max-width: 1450px) {
+    /*
+    *
+    *   Styles created by HB tech
+    *
+    *
+    */
+    .wrapper{
+        min-width: 960px;
+    }
+
+    .nav-logo-row {
+        width: 100px;
+        height: 100px;
+    }
+
+    .nav-inner {
+        width: calc(100% - 140px);
+        margin-left: 140px;
+    }
+    
+    .nav-inner ul.menu{
+        padding-left: 40px;
+    }
+    .nav-inner ul.menu li{
+        line-height: 53.9px;
+        font-size: 18px;
+        padding: 0 9.8px;
+    }
+
+    .nav-inner ul.menu li.current-menu-item::after,
+    .nav-inner ul.menu li:hover::after {
+        height: 3px;
+    }
+
+    .nav-inner .langs{
+        padding-left: 200px;
+    }
+
+    .nav-inner .langs li a{
+        font-size:12.6px;
+        padding: 7px 9.1px;
+    }
+    .nav-inner .langs li{
+        font-size:12.6px;
+    }
+    .nav-inner .search-toggle{
+        font-size: 18.2px;
+    }
+    .nav-inner .search-toggle:hover{
+        font-size: 18.2px;
+    }
+    .flexslider .flex-control-nav{
+        bottom:14px;
+    }
+    .flex-control-paging li a{
+        width: 5.6px;
+        height: 5.6px;
+    }
+    .medicament-search-box .med-search-header-container h2{
+        line-height:35px;
+        font-size:19px;
+        padding-left:21px;
+    }
+    .medicament-search-box .med-search-form-container label{
+        font-size:16px;
+        line-height:36.4px;
+    }
+    .medicament-search-box .med-search-form-container input{
+        line-height: 20px;
+        font-size: 20px;
+    }
+    .medicament-search .medicaments,
+    .medicament-search .gallery{
+        padding:0 35px;
+        line-height:35px;
+        margin-left: 49.7px;
+    }
+    .medicament-search .medicaments a,
+    .medicament-search .gallery a{
+        font-size:16px;
+        font-weight:200;
+    }
+    .main-content .header-news{
+        font-size:14.7px;
+        margin-top:12.9px;
+        margin-bottom:15.8px;
+        padding-bottom:8px;
+    }
+    .news-content .item {
+        margin-bottom: 70px;
+    }
+    .front-page-news-content .item {
+        margin: 2px;
+    }
+    .news-content .item .item-content-body {
+        padding: 5px 5px 10px;
+    }
+    .news-content .item .item-content-container {
+        height: 60px;
+    }
+    .news-content .item .item-content-viewmore {
+        margin-top: 30px;
+    }
+    .news-content .item .item-content-container p{
+        margin-top: 11.8px;
+        margin-bottom: 17.6px;
+        margin-left: 0.9px;
+        margin-right: 0.9px;
+        padding: 6px;
+    }
+    .news-content .item .item-see-more{
+        -webkit-transform: translate(10.5px,11.9px);
+        -moz-transform: translate(10.5px,11.9px);
+        -ms-transform: translate(10.5px,11.9px);
+        -o-transform: translate(10.5px,11.9px);
+        transform: translate(10.5px,11.9px);
+    }
+    .news-content .item .item-see-more button{
+        font-size: 21px;
+        padding: 8.2px 14px 4.2px 14px;
+    }
+    
+    .site-footer i {
+        font-size: 28px;
+    }
+
+    .site-footer .footer-address > span,
+    .site-footer .footer-phone-number > span,
+    .site-footer .footer-email > span {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .main-content::after{
+        background-size:8.4px 8.4px;
+    }
+    /*
+    * Page Gallery Styles
+    *
+    */
+    .gallery-container{
+        min-width:100%;
+    }
+    .gallery-header-container{
+        padding-left:71.4px;
+        padding-top:26.6px;
+        padding-bottom:8.4px;
+    }
+    .gallery-header h1{
+        font-size:25.9px;
+    }
+
+    .gallery-switcher-container span{
+        padding: 10px 20px 5px;
+        font-size: 20px;
+    }
+    .video-gallery .gallery-item::after{
+        line-height: 35px;
+        font-size:27.3px;
+        width: 35px;
+        height: 35px;
+    }
+
+    .image-gallery li .gallery-item::after{
+        font-size: 33.6px;
+    }
+    /*Contact Styles Start Here
+    */
+
+    .static-header-container{
+        padding-left:70px;
+        padding-top:26.6px;
+        padding-bottom:27.3px;
+    }
+    .static-header-container h1{
+        font-size:25.9px;
+    }
+
+    .contact-info-div .contact-info-ul {
+        min-width: 500px;
+    }
+
+    .contact-info-div .contact-info-ul li {
+        height: 45px;
+        line-height: 45px;
+    }
+
+    .contact-info-div .contact-info-ul li .contact-info-icon {
+        font-size: 25px;
+    }
+
+    .contact-info-div .contact-info-ul li .contact-info-text {
+        font-size: 17px;
+    }
+
+    .contact-form-container,
+    #map {
+        height: 430px;
+    }
+
+    .contact-form .form-item {
+        padding-left: 8px;
+        font-size: 16px;
+        margin-top: 6.3px;
+    }
+
+    .contact-form input.form-item {
+        height: 40px;
+        font-size: 17px;
+    }
+
+    .contact-form input[type=submit].form-item{
+        font-size: 20px;
+        margin: 11.2px 0px 0px auto;
+    }
+    .contact-info-container{
+        padding: 15.4px 30.8px;
+    }
+    .contact-info-container span{
+        font-size:12.6px;
+    }
+    .contact-info-wrapper>div{
+        margin-bottom:16.8px;
+    }
+    .about-page-image {
+        height: 250px;
+    }
+    .about-header-container .static-header-container{
+        padding-top:28px;
+        padding-left:28.7px;
+        padding-right:24.5px;
+        padding-bottom:17.5px;
+    }
+    .about-container{
+        padding: 47.6px 20px;
+    }
+    .about-container p{
+        font-size: 16px;
+    }
+    .news-container{
+        padding-bottom:17.5px;
+    }
+    .news-container .news{
+        margin: 0 0 17.5px 0;
+    }
+    .news-container .news .news-image{
+        height:205.1px;
+    }
+    .news-container .news .news-header{
+        padding-top:23.8px;
+        padding-bottom: 18.3px;
+        text-align: center;
+    }
+    .news-container .news .news-header h1{
+        font-size:21px;
+    }
+    .news-container .news .news-content{
+        padding-left:0px;
+        padding-right:0px;
+        height: 68.6px;
+    }
+    .news-container .news .news-more {
+        padding-top: 43.3px;
+    }
+    .news-container .news .news-more button{
+        font-size: 21px;
+        padding: 6.2px 14px 2.2px 14px;
+
+    }
+    .news-container .news:nth-child(odd){
+        margin: 0 auto 25px;
+        border: 1px solid #A9D6EB;
+    }
+    
+    .page-wrap {
+        min-height: calc(100% - 79.1px);
+    }
+
+    .site-footer{
+        height: 120px;
+        padding: 25px 0;
+    }
+
+    .news-container{
+        padding-bottom:17.5px;
+    }
+
+    .news-container .news{
+        margin: 0 auto 25px;
+        border: 1px solid #A9D6EB;
+    }
+
+    .single-news-container,
+    .single-medicaments-container {
+        margin-bottom: 63px;
+    }
+
+    .single-news-container .single-news-col:nth-child(2),
+    .single-medicaments-container .single-medicaments-col:nth-child(2) {
+        font-size: 18px;
+    }
+
+    aside.med-categories {
+        width: 300px;
+    }
+
+    main.meds-main-content {
+        width: calc(100% - 300px);
+    }
+
+    .medicaments-container .medicaments .medicaments-header {
+        padding: 15px 0 10px;
+    }
+
+    .medicaments-container .medicaments .medicaments-header h1 {
+        font-size: 21px;
+    }
+
+    .medicaments-container .medicaments .medicaments-content {
+        font-size: 17px;
+        padding: 10px 20px;
+    }
+
+    .medicaments-container .medicaments .medicaments-more a {
+        font-size: 25px;
+    }
+
+    .medicaments-search {
+        margin: 0 auto 40px;
+    }
+
+    .medicaments-search label {
+        font-size: 20px;
+    }
+
+    .medicaments-input-container, .medicaments-select-container {
+        border: 10px solid #A9D6EB;
+        border-width: 10px 20px;
+        margin-top: 15px;
+    }
+
+    .medicaments-input-container input, .medicaments-select-container select {
+        font-size: 20px;
+        line-height: 25px;
+        width: calc(100% - 40px);
+    }
+
+    .medicaments-input-container .search-icon, .medicaments-select-container .select-icon {
+        width: 40px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .medicaments-container .medicaments .medicaments-image {
+        padding-top: 90%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .nav-inner .langs{
+        padding-left: 90px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .medicaments-main-container .main-content {
+        width: 94%;
+    }
+
+    .medicaments-container .medicaments {
+        width: calc(50% - 20px);
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .news-content .item {
+        width: calc(50% - 63px);
+    }
+
+    .front-page-news-content .item {
+        width: calc(25% - 4.5px);
+    }
+
+    .nav-inner .langs{
+        padding-left: 15px;
+    }
+}

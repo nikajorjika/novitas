@@ -1,0 +1,167 @@
+/**
+* Media Query - Maximum Width 960px
+*/
+
+@media screen and (max-width: 960px) {
+    .news-content .item:nth-child(even){
+        float: none;
+    }
+    .news-content .item,
+    .front-page-news-content .item,
+    .front-page-news-content .item:first-child {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        height: auto;
+        float: none;
+    }
+    .wrapper{
+        min-width: 100%;
+    }
+    .news-content .item .item-see-more{
+        position: static;
+    }
+    .news-container .news{
+        width:100%;
+    }
+    .news-container .news .news-content-wrapper{
+        width:calc(50% - 25px);
+    }
+    .news-container .news .news-content{
+        height:102px;
+    }
+    .news-container .news .news-image{
+        height:239.1px;
+        width: 49%;
+    }
+
+    .nav-inner>div.hamburger-menu{
+        display: inline-block;
+    }
+    .nav-inner>div.main-menu-wrapper{
+        display: none;
+    }
+    .nav-inner>div{
+        vertical-align: middle;
+        padding: 0 30px;
+    }
+
+    .nav-inner{
+        text-align: center;
+        height: 50px;
+        padding: 10px;
+    }
+
+    .video-gallery li, .image-gallery li{
+        width: 50%;
+        padding-top: 31.3%;
+    }
+
+    .gallery-switcher-container {
+        padding-left: 0;
+    }
+
+    .about-container {
+        padding: 47.6px 50px;
+    }
+
+    .medicaments-content .item:nth-child(even){
+        float: none;
+    }
+    .medicaments-content .item{
+        width: 70%;
+        display: block;
+        margin:0 auto;
+        margin-bottom:100px;
+        height:auto;
+    }
+    .medicaments-content .item .item-see-more{
+        position: static;
+    }
+
+    main.meds-main-content .header-static,
+    main.meds-main-content .medicaments-container {
+        width: 80%;
+    }
+
+    .medicaments-container .medicaments{
+        width:100%;
+    }
+    .medicaments-container .medicaments .medicaments-content{
+        height:102px;
+    }
+    .medicaments-container .medicaments .medicaments-image{
+        padding-top: 50%;
+    }
+
+    .medicaments-col {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .medicaments-input-container, .medicaments-select-container {
+        width: 100%;
+        margin: 15px 0 0;
+    }
+
+    .contact-form-container {
+        width: 100%;
+    }
+
+    #map {
+        width: 100%;
+    }
+
+    .single-news-container .single-news-col,
+    .single-news-container .single-news-col:nth-child(2),
+    .single-medicaments-container .single-medicaments-col,
+    .single-medicaments-container .single-medicaments-col:nth-child(2) {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .single-news-container .single-news-col:nth-child(2),
+    .single-medicaments-container .single-medicaments-col:nth-child(2) {
+        margin-top: 30px;
+        max-height: initial;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .slide-image {
+        width:100%;
+        padding-top:50%;
+    }
+
+    .medicament-search .medicaments,
+    .medicament-search .gallery {
+        display: none;
+    }
+
+    .medicament-search-box{
+        margin: 0 auto;
+        display: block;
+        padding-top: 19.2px;
+    }
+
+    .site-footer i {
+        font-size: 25px;
+    }
+
+    .site-footer .footer-address > span,
+    .site-footer .footer-phone-number > span,
+    .site-footer .footer-email > span {
+        font-size: 15px;
+        padding: 12px;
+    }
+
+    main.meds-main-content .header-static,
+    main.meds-main-content .medicaments-container {
+        width: 90%;
+    }
+
+    .medicaments-container .medicaments .medicaments-image {
+        padding-top: 70%;
+    }
+}

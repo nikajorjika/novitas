@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Redberry\n"
+"POT-Creation-Date: 2016-05-11 14:57+0400\n"
+"PO-Revision-Date: 2016-05-11 15:00+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ka_GE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../redberry/functions.php:71
+msgid "Redberry"
+msgstr "რედბერი"
+
+#: ../redberry/inc/customize-admin-panel.php:25
+msgid "Menus"
+msgstr "მენიუ"
+
+#: ../redberry/inc/facebook-connector.class.php:397
+msgid "There are some validation problems. Please, try again"
+msgstr "მონაცემთა ვალიდაციისას წარმოიშვა პრობლემები. გთხოვთ სადეთ თავიდან"
+
+#: ../redberry/inc/facebook-connector.class.php:405
+msgid "Your new account created successfully"
+msgstr "თქვენი ანგარიში წარმატებით შეიქმნა"
+
+#: ../redberry/inc/facebook-connector.class.php:411
+msgid "For registration we need correct data. Please, try again"
+msgstr "რეგისტრაციის გასაგრძელებლად გვჭირდება სწორი მონაცემები. გთხოვთ სადეთ თავიდან"
+
+#: ../redberry/inc/modify-relevanssi.php:172
+#: ../redberry/inc/modify-relevanssi.php:177
+msgid "Search"
+msgstr "ძებნა"
+
+#: ../redberry/inc/wc-setup.php:9
+msgid "Georgian Lari"
+msgstr "ქართული ლარი"

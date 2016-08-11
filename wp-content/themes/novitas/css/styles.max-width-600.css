@@ -1,0 +1,115 @@
+/**
+* Media Query - Maximum Width 600px
+*/
+
+@media screen and (max-width: 650px) {
+	.site-footer .wrapper>div {
+		width: 100%;
+	}
+
+	.site-footer .wrapper>div:first-child,
+	.site-footer .wrapper>div:last-child {
+		text-align: center;
+	}
+
+	.site-footer {
+		height: 320px;
+	}
+
+    .site-footer .footer-address,
+    .site-footer .footer-phone-number,
+    .site-footer .footer-email {
+        padding: 5px 0 20px;
+    }
+
+    .site-footer i {
+    	font-size: 30px;
+    }
+
+	.site-footer .footer-address > span,
+	.site-footer .footer-phone-number > span,
+	.site-footer .footer-email > span {
+		font-size: 18px;
+	}
+
+	.medicaments-container .medicaments .medicaments-image {
+		width: 100%;
+	}
+
+	.medicaments-container .medicaments .medicaments-content-wrapper {
+		width: 100%;
+	}
+
+	.nav-inner .langs {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.contact-info-container {
+		position: static;
+		width: 100%;
+	}
+
+	.contact-form {
+		margin-left: 18px;
+	}
+
+	.static-header-container {
+		padding-left: 18px;
+	}
+	.news-container .news .news-content-wrapper{
+        width:calc(100% - 30px);
+    }
+    .news-container .news .news-image {
+    	width: calc(100% - 30px);
+    	margin-left: 15px;
+    	float: left !important;
+    }
+    .gallery-switcher-container span {
+    	margin-bottom: 5px;
+    }
+
+    aside.med-categories,
+    main.meds-main-content {
+    	width: 100%;
+    }
+
+    .contact-info-div {
+        width: 100%;
+    }
+
+    .contact-info-div .contact-info-ul {
+        width: 99%;
+        float: none;
+        margin: 0 auto;
+        min-width: initial;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .video-gallery li, .image-gallery li {
+        width: 100%;
+        padding-top: 61.3%;
+    }
+
+    .slide-image {
+        width: 100%;
+        padding-top: 82%;
+    }
+
+    .nav-inner > div {
+    	padding: 0;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .contact-form {
+    	width: 250px;
+    }
+
+    .logo {
+    	display: none;
+    }
+}
